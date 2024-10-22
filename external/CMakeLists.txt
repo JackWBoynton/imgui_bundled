@@ -255,3 +255,18 @@ endif()
 add_subdirectory(immapp/immapp)
 # And add info about the active libraries
 target_link_libraries(immapp PUBLIC imgui_bundle)
+
+
+###############################################################################
+# ImNodes
+###############################################################################
+set(IMNODES_IMGUI_TARGET_NAME imgui)
+add_subdirectory(imnodes/imnodes)
+add_simple_external_library(imnodes imnodes)
+
+###############################################################################
+# ImGrid
+###############################################################################
+set(IMGRID_IMGUI_TARGET imgui)
+add_subdirectory(imgrid/imgrid)
+add_simple_external_library(imgrid imgrid)

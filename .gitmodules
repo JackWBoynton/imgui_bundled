@@ -77,3 +77,12 @@
 [submodule "external/nanovg/MetalNanoVG"]
 	path = external/nanovg/MetalNanoVG
 	url = https://github.com/ollix/MetalNanoVG.git
+[submodule "external/imgrid/imgrid"]
+	path = external/imgrid/imgrid
+	url = https://github.com/JackWBoynton/imgrid.git
+[submodule "external/im_dynamic_editor/im_dynamic_editor"]
+	path = external/im_dynamic_editor/im_dynamic_editor
+	url = https://github.com/JackWBoynton/im_dynamic_editor.git
+[submodule "external/imnodes/imnodes"]
+	path = external/imnodes/imnodes
+	url = https://github.com/Nelarius/imnodes.git
