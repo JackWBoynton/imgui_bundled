@@ -14,9 +14,12 @@
 //-----------------------------------------------------------------------------
 
 #pragma once
+#define IMGUI_DEFINE_MATH_OPERATORS
 
 #include <stdexcept>
 #include <string>
+#include <exception>
+
 
 inline std::string _file_short_name(const std::string& filename)
 {

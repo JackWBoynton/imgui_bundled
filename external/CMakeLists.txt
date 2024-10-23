@@ -262,11 +262,20 @@ target_link_libraries(immapp PUBLIC imgui_bundle)
 ###############################################################################
 set(IMNODES_IMGUI_TARGET_NAME imgui)
 add_subdirectory(imnodes/imnodes)
-add_simple_external_library(imnodes imnodes)
 
 ###############################################################################
 # ImGrid
 ###############################################################################
 set(IMGRID_IMGUI_TARGET imgui)
 add_subdirectory(imgrid/imgrid)
-add_simple_external_library(imgrid imgrid)
+
+###############################################################################
+# ImDynamicEditor
+###############################################################################
+set(IM_DYNAMIC_EDITOR_USE_BUNDLED_LIBS OFF)
+set(IM_DYNAMIC_EDITOR_ADD_BUNDLED_WIDGETS OFF)
+set(IM_DYNAMIC_EDITOR_IMGUI_TARGET_NAME imgui)
+set(IM_DYNAMIC_EDITOR_IMGRID_TARGET_NAME imgrid)
+set(IM_DYNAMIC_EDITOR_IMNODES_TARGET_NAME imnodes)
+set(IM_DYNAMIC_EDITOR_JSON_TARGET_NAME nlohmann_json)
+add_subdirectory(im_dynamic_editor/im_dynamic_editor)
