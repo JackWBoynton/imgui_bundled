@@ -122,7 +122,7 @@ option(IMGUI_BUNDLE_DISABLE_NANOVG "Disable nanovg" OFF)
 option(IMGUI_BUNDLE_DISABLE_IMGUI_TEX_INSPECT "Disable imgui_tex_inspect" OFF)
 option(IMGUI_BUNDLE_DISABLE_IMGUIZMO "Disable ImGuizmo" OFF)
 option(IMGUI_BUNDLE_DISABLE_IMFILEDIALOG "Disable ImFileDialog" OFF)
-option(IMGUI_BUNDLE_DISABLE_IMGUI_NODE_EDITOR "Disable imgui-node-editor" OFF)
+option(IMGUI_BUNDLE_DISABLE_IMGUI_NODE_EDITOR "Disable imgui-node-editor" ON)
 option(IMGUI_BUNDLE_DISABLE_IMPLOT "Disable implot" OFF)
 option(IMGUI_BUNDLE_DISABLE_IMMVISION "Disable immvision" OFF)
 
